@@ -1,0 +1,260 @@
+.headless-ga4-layout {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
+    margin-top: 20px;
+}
+
+.headless-ga4-panel,
+.headless-ga4-widget-card,
+.headless-ga4-widget-panel,
+.headless-ga4-credentials-box {
+    border: 1px solid #d6d6d6;
+    background: #fff;
+}
+
+.headless-ga4-panel {
+    padding: 20px;
+}
+
+.headless-ga4-status-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 14px;
+}
+
+.headless-ga4-status-card {
+    border: 1px solid #d6d6d6;
+    background: #f7f7f7;
+    padding: 12px;
+}
+
+.headless-ga4-status-card strong {
+    display: block;
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.headless-ga4-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.headless-ga4-steps {
+    margin: 12px 0 0 18px;
+}
+
+.headless-ga4-steps li + li {
+    margin-top: 8px;
+}
+
+.headless-ga4-section-heading {
+    margin-top: 24px;
+}
+
+.headless-ga4-credentials-box {
+    margin-top: 12px;
+    background: #f7f7f7;
+    padding: 12px;
+}
+
+.headless-ga4-inline-form {
+    margin-top: 10px;
+}
+
+.headless-ga4-widget-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-bottom: 16px;
+}
+
+.headless-ga4-widget-period-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.headless-ga4-widget-period-header strong {
+    display: block;
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+.headless-ga4-widget-period-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.headless-ga4-widget-period-link {
+    border: 1px solid #c3c4c7;
+    border-radius: 999px;
+    background: #f6f7f7;
+    color: #1d2327;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.headless-ga4-widget-period-link:hover,
+.headless-ga4-widget-period-link:focus {
+    border-color: #2271b1;
+    color: #0a4b78;
+}
+
+.headless-ga4-widget-period-link.is-active {
+    border-color: #1d2327;
+    background: #1d2327;
+    color: #fff;
+}
+
+.headless-ga4-widget-card,
+.headless-ga4-widget-panel {
+    padding: 12px;
+}
+
+.headless-ga4-widget-card strong {
+    display: block;
+    margin-top: 4px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.headless-ga4-widget-label {
+    color: #555d66;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.headless-ga4-widget-delta {
+    display: block;
+    margin-top: 6px;
+    color: #555d66;
+    font-size: 12px;
+}
+
+.headless-ga4-widget-layout {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    margin-top: 12px;
+}
+
+.headless-ga4-widget-list {
+    margin: 10px 0 0;
+    max-height: 230px;
+    overflow: auto;
+}
+
+.headless-ga4-widget-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 0;
+    border-top: 1px solid #ececec;
+}
+
+.headless-ga4-widget-row:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.headless-ga4-widget-item-title {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+}
+
+.headless-ga4-widget-rank-bar {
+    display: block;
+    width: min(180px, 100%);
+    height: 10px;
+    margin-top: 8px;
+}
+
+.headless-ga4-widget-rank-bar-track {
+    fill: #edf0f2;
+}
+
+.headless-ga4-widget-rank-bar-value {
+    fill: #2271b1;
+}
+
+.headless-ga4-widget-muted {
+    color: #555d66;
+}
+
+.headless-ga4-widget-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.headless-ga4-widget-chart {
+    margin-top: 10px;
+    border: 1px solid #ececec;
+    background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+    padding: 10px;
+}
+
+.headless-ga4-widget-chart svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.headless-ga4-widget-chart-bars rect {
+    fill: #d7e8f7;
+}
+
+.headless-ga4-widget-chart-line {
+    stroke: #111111;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+}
+
+.headless-ga4-widget-panel-spaced {
+    margin-top: 12px;
+}
+
+.headless-ga4-widget-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 980px) {
+    .headless-ga4-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 782px) {
+    .headless-ga4-widget-period-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .headless-ga4-widget-grid,
+    .headless-ga4-widget-layout {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .headless-ga4-widget-grid,
+    .headless-ga4-widget-layout {
+        grid-template-columns: 1fr;
+    }
+}

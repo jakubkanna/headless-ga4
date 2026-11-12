@@ -1,0 +1,4 @@
+README.md
+distignore.txt
+.DS_Store
+Thumbs.db
